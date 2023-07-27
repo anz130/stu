@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstWeb {
 	@RequestMapping("/first")
 	public String first() {
-		System.out.println("this is first run...change");
+		System.out.println("this is first run...change-this");
 		return "first spb";
 	}
 
