@@ -1,0 +1,27 @@
+server:
+  port: 8081
+lesson: 
+  SpringBoot
+enterprise:
+  name: luo
+  age: 16
+  
+birthday: 1949-10-01
+user:
+ name: itecat
+ age: 16
+ 
+likes:
+ - game
+ - sleem
+ - music
+sql: [mysql,sqlserver]
+programs: [{name: java,sxcd: jt},{name: python,sxcd: pt}]
+# 创建类，用于封装下面的数据
+# 由Spring加载数据到对象中，
+# 使用时从Spring获取数据
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: 211
